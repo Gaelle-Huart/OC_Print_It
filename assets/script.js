@@ -53,7 +53,7 @@ slides.forEach((_, index) => {
 	}
 });
 
-function moveAll(index){
+function moveAll(index){						// <-- nommer la fonction plus précisément pour plus de lisibilité
 	const move = document.querySelectorAll('.dot');
 	move.forEach((dot, i) => {
 		dot.classList.toggle('dot_selected', i == index);

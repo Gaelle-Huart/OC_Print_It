@@ -129,9 +129,13 @@ header {
 	padding-right: 60px;
 }
 #banner .arrow_left {
+	background: none;
+	border: none;
 	left: 10px;
 }
 #banner .arrow_right {
+	background: none;
+	border: none;
 	right: 10px;
 }
 /* Gestion des points du carrousel */
